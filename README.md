@@ -1,5 +1,10 @@
 # Maths-for-Computing
 ### 1A
+A small local catering company provides hot dog served in buns at local events. The owner has to order the hot dogs and the buns and wants to ensure that however many are ordered, there are the same number of hot dogs and buns. The hot dogs usually come in packages of 8 although this can vary depending on the supplier." "The buns usually come in packages of 12 but like the hot dogs this can vary.
+The owner would like an app that will determine the appropriate number of number of packages of hot dogs and buns to order given:
+- A specified minimum number of servings that must be catered for and
+- The number of items per package if different from usual.
+
 [Click here to be redirected to the source code](https://github.com/ibrahimwaheed/Maths-for-Computing/blob/master/LCM%20HCF.cpp)
 [Click here to be able to download the .exe](https://github.com/ibrahimwaheed/Maths-for-Computing/blob/master/LCM%20HCF.exe)
 ### 1B
@@ -31,5 +36,19 @@ Which means the formula looks like the following:
 ![](https://raw.githubusercontent.com/ibrahimwaheed/Maths-for-Computing/master/Images/Equation.gif)
 
 With this established the calculation can be carried out in order to get the result 903, by then converting into terms of money you would have £9.03 at the end of your holiday.
+### 2B
+A friend of yours runs a charity marathon. He manages to run the first mile in 6 minutes but takes 5% longer for each subsequent mile of the 26-mile race. How long does it take him to complete the race? Give your answer to the nearest second.
+(Show all your workings)
 
+The equation below is what is used to figure out how long it took him to finish the race.
+![](https://raw.githubusercontent.com/ibrahimwaheed/Maths-for-Computing/master/Images/CodeCogsEqn.gif)
+Now that we have this we can find what needs to be substituted in to the equation to figure out the result.
+n = 26
+r = 1.05
+a = 6
+Now that this has been established these are then put into the equation so that it looks like this:
+
+![](https://raw.githubusercontent.com/ibrahimwaheed/Maths-for-Computing/master/Images/CodeCogsEqn%20(1).gif)
+The answer that we get from this equation is 306.68 however this is recorded in minutes while the brief asks for it to be to the nearest second, to do this we need to do 306.68 * 60 in order to get 18400.84.
+This is rounded up to get the answer of 18401 seconds.
 
